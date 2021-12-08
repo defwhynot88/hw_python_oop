@@ -90,7 +90,7 @@ class SportsWalking(Training):
 
 
 class Swimming(Training):
-    """Тренировка: плавание."""
+    """Тренировка: плавание. """
     LEN_STEP = 1.38
 
     def __init__(self,
