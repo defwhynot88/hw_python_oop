@@ -131,7 +131,7 @@ def main(training: Training) -> None:
 def error_info(tested_class, data):
     number_of_class_fields = len(fields(tested_class))
     if number_of_class_fields != len(data):
-        raise TypeError('Ожиалось другое число аргументов')
+        raise TypeError('Ожидалось другое число аргументов')
 
 
 if __name__ == '__main__':
