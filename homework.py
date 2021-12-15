@@ -11,11 +11,11 @@ class InfoMessage:
     speed: float
     calories: float
     PYTKA_POPYTKA: ClassVar[str] = (   # я не понимаю как тут надо исправить..можете накинуть материал или перефразировать комментарий?
-        f'Тип тренировки: {self.training_type}; '
-        f'Длительность: {self.duration:.{3}f} ч.; '
-        f'Дистанция: {self.distance:.{3}f} км; '
-        f'Ср. скорость: {self.speed:.{3}f} км/ч; '
-        f'Потрачено ккал: {self.calories:.{3}f}'
+        f'Тип тренировки: {training_type}; '
+        f'Длительность: {duration:.{3}f} ч.; '
+        f'Дистанция: {distance:.{3}f} км; '
+        f'Ср. скорость: {speed:.{3}f} км/ч; '
+        f'Потрачено ккал: {calories:.{3}f}'
     )
 
     def get_message(self) -> str:  # ??
